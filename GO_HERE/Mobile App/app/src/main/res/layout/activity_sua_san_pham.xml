@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+
+    android:background="#BABABA"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="445dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="SỬA THÔNG TIN SẢN PHẨM"
+
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/masp"
+                android:layout_width="0dp"
+
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/tensp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/border_image"
+                android:drawablePadding="8dp"
+                android:hint="Tên sản phẩm"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHint="#aaa" />
+
+            <EditText
+                android:id="@+id/dongia"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/border_image"
+                android:drawablePadding="8dp"
+                android:hint="Đon giá"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHint="#aaa" />
+
+            <EditText
+                android:id="@+id/mota"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+
+
+                android:background="@drawable/border_image"
+                android:drawablePadding="8dp"
+                android:hint="Mô tả"
+                android:padding="8dp"
+
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHint="#aaa" />
+
+            <EditText
+                android:id="@+id/ghichu"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/border_image"
+                android:drawablePadding="8dp"
+                android:hint="Ghi chú"
+                android:padding="8dp"
+
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHint="#aaa" />
+
+            <EditText
+                android:id="@+id/soluongkho"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+
+
+                android:background="@drawable/border_image"
+                android:drawablePadding="8dp"
+                android:hint="Số lượng kho"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHint="#aaa" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="Danh mục sản phẩm"
+                    android:textColor="#aaa"
+                    android:textSize="17dp"></TextView>
+
+
+                <Spinner
+                    android:id="@+id/manhomsanpham"
+                    android:layout_width="195dp"
+                    android:layout_height="45dp"
+
+                    android:layout_marginLeft="26dp"
+                    android:drawablePadding="8dp"
+                    android:padding="8dp"
+
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/cardview_dark_background"
+                    android:textColorHint="#aaa" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgsp"
+                    android:layout_width="175dp"
+                    android:layout_height="66dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border_image"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/cardview_dark_background" />
+
+                <Button
+                    android:id="@+id/btnAddImg"
+                    android:layout_width="124dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#FFC800"
+                    android:text="Chọn ảnh"></Button>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

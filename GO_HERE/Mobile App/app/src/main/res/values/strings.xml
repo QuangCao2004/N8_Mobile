@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quang Mobile</string>
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_subtitle">Nhập thông tin đăng nhập của bạn để tiếp tục</string>
+    <string name="username_hint">Tên đăng nhập</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="signup_prompt">Bạn chưa có tài khoản?</string>
+    <string name="register_now">Đăng ký ngay</string>
+    <string name="or_login_with">hoặc đăng nhập với</string>
+    <string name="google_login">Đăng nhập bằng Google</string>
+    <string name="facebook_login">Đăng nhập bằng Facebook</string>
+    <string name="app_logo">Logo ứng dụng</string>
+</resources>
